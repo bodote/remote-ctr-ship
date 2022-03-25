@@ -13,4 +13,6 @@ Second Edition`
 - verwendet dazu pitest.org
   - baue pitest - maven plugin in die pom.xml ein 
   - lasse `pitest` laufen und finde die Stellen, die laut pitest trotz pitests mutationen keine "roten" test ergeben. 
+    - Hinweis: Besonders verdächtig sind die Stellen die in Verbindung mit Fallunterscheidungen stehen!
   - schließe die Lücke(n)
+  - beachte, dass das pitest-plugin für maven auch noch das pitest plugin in version 0.14 benötigt wird.
